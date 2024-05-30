@@ -32,31 +32,57 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 * {
   box-sizing: border-box;
 }
-.inp{
+
+.inp {
   width: 17.5%;
   height: 25px;
   padding: 10px;
 }
+
 .btn {
   height: 25px;
-  background-color:#00134d;
+  background-color: #00134d;
   color: white;
 }
+
 .btn:hover {
-  background-color:#3366ff;
+  background-color: #3366ff;
 }
+
 .buttons {
-  margin-top: 20px;
+  position: relative;
+  bottom: 250px;
 }
-.btn1,.btn2,.btn3,.btn4 {
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
   margin: 15px;
-  background-color:#00134d;
+  background-color: #00134d;
   color: white;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  position: relative;
+  bottom: 100px;
+}
+
+.images {
+  width: 350px;
+  height: 350px;
 }

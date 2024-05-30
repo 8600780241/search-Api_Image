@@ -14,7 +14,7 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/mountain' element={<Mountain />} />
           <Route path='/birds' element={<Birds />} />
-          <Route path='beach' element={<Beaches />} />
+          <Route path='/beach' element={<Beaches />} />
           <Route path='/food' element={<Food />} />
         </Routes>
       </BrowserRouter>
